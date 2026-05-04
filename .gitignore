@@ -1,3 +1,65 @@
+# macOS
+.DS_Store
+
+# Editor/IDE
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+env/
+venv/
+.venv/
+pip-wheel-metadata/
+*.egg-info/
+dist/
+build/
+eggs/
+.eggs/
+*.egg
+
+# Testing
+.pytest_cache/
+
+# MyPy/Pylance caches
+.mypy_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+output-*/
+
+# Logs
+*.log
+logs/
+
+# Environment files
+.env
+.env.*
+
+# Database
+*.sqlite3
+
+# Temporary / backup files
+*~
+*.swp
+
+# Large or generated data (optional - uncomment if you want to ignore data files)
+# DATA/
+# DATA/*.csv
+
+# Project-specific: ignore folder named Ignore/ (present in repo)
+Ignore/
+
+# Tableau
+*.twb
+*.twbx
+
+# OS generated files
+Thumbs.db
+Desktop.ini
 # Ignore folder with old Python scripts
 Ignore/
 
